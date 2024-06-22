@@ -9,10 +9,10 @@ the RWCA model [1,2,3].
   gets infected and stays at the place. The health point of the walker
   becomes -n, say -10.
 
-- The health point of the infected walker was added by one at each CA
-  time step.  When the health point becomes -1, it becomes a healthy
-  walker and start to walk around the system.
-
+- The infected walker's health point was added by one at each CA time step.
+  When the health point becomes -1, it becomes a healthy walker and starts
+  to walk around the system.
+  
 
 [1] K. Nishidate, M. Baba, and R.J. Gaylord. Cellular automaton model
   for random walkers. Phys. Rev. Lett., 77:1675–1678,

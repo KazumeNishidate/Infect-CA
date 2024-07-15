@@ -1,31 +1,22 @@
 
-This code simulates the Infectious disease Cellular Automata based on
-the RWCA model [1,2,3].
+# infectious cellular automaton
 
-- Each walker randomly walks around the 2D lattice following the RWCA
-  rule.
+This code simulates the Infectious disease cellular automaton based onthe RWCA model [1,2,3].
 
-- When a walker comes into contact with an infected walker, it then
-  gets infected and stays at the place. The health point of the walker
-  becomes -n, say -10.
+- Each walker randomly walks around the 2D lattice following the RWCA rule.
 
-- The infected walker's health point was added by one at each CA time step.
-  When the health point becomes -1, it becomes a healthy walker and starts
-  to walk around the system.
-  
+- When a walker comes into contact with an infected walker, it then  gets infected and stays at the place. The health point of the walker becomes -n, say -100.
 
-[1] K. Nishidate, M. Baba, and R.J. Gaylord. Cellular automaton model
-  for random walkers. Phys. Rev. Lett., 77:1675–1678,
-  1996. https://journals. aps.org/prl/abstract/10.1103/PhysRevLett.77.1675.
+- The health point of the infected walker was added by one at each CA time step.  When the health point becomes -1, it becomes a healthy walker and start to walk around the system.
 
-[2]  K. Nishidate, M. Baba, and R.J. Gaylord. Cellular automaton model
-  for biased diffusive traffic flow. J. Phys. Soc. Jpn., 65:3415–3418,
-  1996. https: //journals.jps.jp/doi/abs/10.1143/JPSJ.65.3415.
+![](images/clusters.jpg)
+A snapshot of the system.
 
-[3] K. Nishidate, M. Baba, H. Chiba, T. Ito, K. Kodama, and
-  K. Nishikawa. Cellular automaton model for biased diffusive traffic
-  flow. J. Phys. Soc. Jpn., 69:1352–1355,
-  2000. https://journals.jps.jp/doi/abs/10.1143/ JPSJ.69.1352.
+![](images/numbers.jpg)
+CA time step evolutions of the number of infected walkers (purple) and healthy walkers (green).
 
+[1] [Cellular automaton model for random walkers](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.77.1675)
 
-kazume.nishidate@gmail.com
+[2] [Cellular automaton model for biased diffusive traffic flow](https://journals.jps.jp/doi/abs/10.1143/JPSJ.65.3415)
+
+[3] [Probabilistic Cellular Automaton for Random Walkers](https://journals.jps.jp/doi/abs/10.1143/JPSJ.69.1352)

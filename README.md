@@ -1,7 +1,7 @@
 
 # Infectious cellular automaton
 
-This code simulates the Infectious disease cellular automaton based onthe RWCA model [1,2,3].
+This code simulates the Infectious disease cellular automaton based on the RWCA model [1,2,3].
 
 - Each walker randomly walks around the 2D lattice following the RWCA rule.
 

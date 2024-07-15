@@ -1,5 +1,5 @@
 
-# infectious cellular automaton
+# Infectious cellular automaton
 
 This code simulates the Infectious disease cellular automaton based onthe RWCA model [1,2,3].
 

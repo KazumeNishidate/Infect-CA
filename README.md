@@ -13,7 +13,7 @@ This code simulates the Infectious disease cellular automaton based onthe RWCA m
 A snapshot of the system.
 
 ![](images/numbers.jpg)
-CA time step evolutions of the number of infected walkers (purple) and healthy walkers (green).
+Time step evolutions of the number of infected walkers (purple) and healthy walkers (green).
 
 [1] [Cellular automaton model for random walkers](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.77.1675)
 

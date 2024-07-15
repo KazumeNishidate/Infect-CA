@@ -9,6 +9,8 @@ This code simulates the Infectious disease cellular automaton based on the RWCA 
 
 - The health point of the infected walker was added by one at each CA time step.  When the health point becomes -1, it becomes a healthy walker and start to walk around the system.
 
+To compile the code, type 'make' in the program directory.
+
 ![](images/clusters.jpg)
 A snapshot of the system.
 

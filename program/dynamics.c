@@ -140,6 +140,8 @@ void move_walkers()
   }
   set_bc(sys.mat1);
   
+  // cnt: healthy walker
+  // inf_cnt: infected walker
   fprintf(fpout, "%d  %d  %d %d\n",
 	  sys.time_step,cnt,inf_cnt,(cnt+inf_cnt));
 }

@@ -4,6 +4,7 @@
 This code simulates the Infectious disease cellular automaton based on the RWCA model [1,2,3]. It uses [GSL](https://www.gnu.org/software/gsl/) for the random number generator and [EGGX](https://www.ir.isas.jaxa.jp/~cyamauch/eggx_procall/index.html) for graphics.
 
 The updated rules are as follows.
+
 - Each walker randomly walks around the 2D lattice following the RWCA rule.
 
 - When a walker comes into contact with an infected walker, it then  gets infected and stays at the place. The health point of the walker becomes -n, say -100.
